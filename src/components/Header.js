@@ -1,6 +1,3 @@
-import React from 'react'
-
-import { Container, Nav, Navbar } from 'react-bootstrap';
 import { FaShoppingCart } from "react-icons/fa";
 import { AiFillDelete } from "react-icons/ai";
 import {
