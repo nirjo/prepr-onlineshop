@@ -1,6 +1,6 @@
-import { Button, Form } from "react-bootstrap";
+// import { Button, Form } from "react-bootstrap";
 import { CartState } from "../context/Context";
-import Rating from "./Rating";
+// import Rating from "./Rating";
 
 const Menu = () => {
   const {
