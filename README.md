@@ -22,10 +22,5 @@ Technology should be used:
 2. Bootstrap 5
 3. React (With routing)
 
-Total Points Distribution
-    1. Modular React Component, Proper Project Structuring and Code Quality: 4 Points
-    2. Design: 2 Points
-    3. JS Functionalities (UX): 2 Points
-    4. Responsiveness: 1 Point
-    6. Bug-Free Code: 1 Point
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
