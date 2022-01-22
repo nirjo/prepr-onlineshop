@@ -77,15 +77,9 @@ const Cart = () => {
       <div className="filters summary">
         <span className="title">Subtotal ({cart.length}) items</span>
         <span style={{ fontWeight: 700, fontSize: 20 }}>Total: ₹ {total}</span>
-        <Button
-          onClick={() => setShow(false)} 
-           type="button"
-          variant="outline-success"
-          disabled={cart.length === 0}>
-  
-            Close me y'all!
-        
-      
+        <Button 
+        type="button" disabled={cart.length === 0}>
+          Proceed to Checkout
         </Button>
       </div>
     </div>
