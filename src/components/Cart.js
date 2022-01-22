@@ -5,7 +5,7 @@ import { CartState } from "../context/Context";
 import Rating from "./Rating";
 
 const Cart = () => {
-    const [show, setShow] = useState(true);
+    // const [show, setShow] = useState(true);
 
   const {
     state: { cart },
