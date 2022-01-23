@@ -12,15 +12,17 @@
 // export default LoginPage;
 
 import React from 'react';
+import './login.css';
 
 const LoginPage = () => {
   return (
   <div>
     <form>
-                <h3>Sign In</h3>
+
+                <h3>Log in</h3>
 
                 <div className="form-group">
-                    <label>Email address</label>
+                    <label>Email</label>
                     <input type="email" className="form-control" placeholder="Enter email" />
                 </div>
 
@@ -36,7 +38,7 @@ const LoginPage = () => {
                     </div>
                 </div>
 
-                <button type="submit" className="btn btn-primary btn-block">Submit</button>
+                <button type="submit" className="btn btn-dark btn-lg btn-block">Sign in</button>
                 <p className="forgot-password text-right">
                     Forgot <a href="#">password?</a>
                 </p>
@@ -46,4 +48,8 @@ const LoginPage = () => {
 };
 
 export default LoginPage;
+
+
+
+
 

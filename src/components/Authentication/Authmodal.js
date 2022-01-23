@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Authmodal = () => {
-  return <div>Login</div>;
+  return <div></div>;
 };
 
 export default Authmodal;
