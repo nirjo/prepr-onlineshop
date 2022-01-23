@@ -16,7 +16,6 @@ import './login.css';
 
 const LoginPage = () => {
   return (
-  <div>
     <form>
 
                 <h3>Log in</h3>
@@ -43,7 +42,6 @@ const LoginPage = () => {
                     Forgot <a href="#">password?</a>
                 </p>
             </form>
-  </div>
   )
 };
 

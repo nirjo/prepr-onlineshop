@@ -89,8 +89,8 @@ const Header = () => {
             </Dropdown.Menu>
           </Dropdown>
           <Authmodal />
-		  <span className="navText"><a href="/login">Login</a></span>
-      <span className="navText"><a href="/register">Register</a></span>
+		  <Button className="navText"><a href="/login">Login</a></Button>
+      <Button className="navText"><a href="/register">Register</a></Button>
         </Nav>
        
       </Container>

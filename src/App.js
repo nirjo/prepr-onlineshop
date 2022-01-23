@@ -12,13 +12,13 @@ import UserProfile from "./components/UserProfile";
 import LoginPage from "./components/LoginPage";
 import RegisterPage from "./components/RegisterPage";
 
-function NoMatch() {
+function PageNotFound() {
   let location = useLocation();
 
   return (
     <div>
       <h3>
-        No match for
+        404 Error - PageNotFound
         <code>{location.pathname}</code>
       </h3>
     </div>
@@ -62,7 +62,7 @@ function App() {
             </Route>
 
             <Route path="*">
-              <NoMatch />
+              <PageNotFound />
             </Route>
           </Switch>
         </div>
