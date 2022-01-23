@@ -1,3 +1,5 @@
+
+import React from 'react';
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 
 const Rating = ({ rating, onClick, style }) => {
@@ -17,3 +19,5 @@ const Rating = ({ rating, onClick, style }) => {
 };
 
 export default Rating;
+
+

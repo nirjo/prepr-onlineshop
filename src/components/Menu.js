@@ -1,6 +1,7 @@
 // import { Button, Form } from "react-bootstrap";
-import { CartState } from "../context/Context";
 // import Rating from "./Rating";
+import React from 'react';
+import { CartState } from "../context/Context";
 
 const Menu = () => {
   const {
@@ -12,17 +13,27 @@ const Menu = () => {
 
   return (
     <div className="filters">
-	
-      <span className="title"><a href="/">Prep-ShoppingCart</a></span>
-	  <span><a href="/">List Products</a></span>
-	  <span><a href="/addproduct">Add product</a></span>
-	  <span><a href="/listcategory">List Categories</a></span>
-<span><a href="/addcategory">Add Category</a></span>
-<span><a href="/profile">Profile</a></span>
-
-	  
+      <span className="title">
+        <a href="/">Prep-ShoppingCart</a>
+      </span>
+      <span>
+        <a href="/">List Products</a>
+      </span>
+      <span>
+        <a href="/addproduct">Add product</a>
+      </span>
+      <span>
+        <a href="/listcategory">List Categories</a>
+      </span>
+      <span>
+        <a href="/addcategory">Add Category</a>
+      </span>
+      <span>
+        <a href="/profile">Profile</a>
+      </span>
     </div>
   );
 };
+
 
 export default Menu;

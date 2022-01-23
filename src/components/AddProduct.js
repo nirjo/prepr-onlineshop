@@ -1,4 +1,6 @@
-const AddProduct = () => {
+import React from 'react';
+
+const  AddProduct = () => {
   return (
     <div className="myContainer">
       <h3>Add Product</h3>
@@ -58,3 +60,5 @@ const AddProduct = () => {
   );
 };
 export default AddProduct;
+
+

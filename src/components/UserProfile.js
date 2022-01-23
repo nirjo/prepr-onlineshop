@@ -1,3 +1,5 @@
+import React from 'react';
+
 const UserProfile = () => {
   return (
     <div className="myContainer">
@@ -5,7 +7,7 @@ const UserProfile = () => {
       <table>
         <tr>
           <td>Name</td>
-          <td>:</td>
+          <td></td>
           <td>
             <input
               type="text"
@@ -16,7 +18,7 @@ const UserProfile = () => {
         </tr>
         <tr>
           <td>Password</td>
-          <td>:</td>
+          <td></td>
           <td>
             <input
               type="text"
@@ -28,7 +30,7 @@ const UserProfile = () => {
 
         <tr>
           <td>Re-type Password</td>
-          <td>:</td>
+          <td></td>
           <td>
             <input
               type="text"
@@ -39,7 +41,7 @@ const UserProfile = () => {
         </tr>
         <tr>
           <td>Breif Introdcution</td>
-          <td>:</td>
+          <td></td>
           <td>
             <textarea
               placeholder="Breif Introdcution"
@@ -51,7 +53,7 @@ const UserProfile = () => {
         </tr>
         <tr>
           <td>Profile Pictute</td>
-          <td>:</td>
+          <td></td>
           <td>
             <input
               type="file"
@@ -69,4 +71,7 @@ const UserProfile = () => {
     </div>
   );
 };
+
 export default UserProfile;
+
+

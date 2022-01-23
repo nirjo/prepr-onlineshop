@@ -21,7 +21,7 @@ const Header = () => {
   } = CartState();
 
   return (
-    <Navbar bg="primary" variant="dark" style={{ height: 80 }}>
+    <Navbar bg="dark" variant="dark" style={{ height: 80 }}>
       <Container>
         <Navbar.Brand>
           <Link to="/">Prepr-ShoppingCart</Link>
@@ -88,7 +88,7 @@ const Header = () => {
             </Dropdown.Menu>
           </Dropdown>
 		  <span className="navText"><a href="/login">Login</a></span>
-<span className="navText"><a href="/register">Register</a></span>
+      <span className="navText"><a href="/register">Register</a></span>
         </Nav>
        
       </Container>
