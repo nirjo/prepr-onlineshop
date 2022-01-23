@@ -11,6 +11,7 @@ import {
 } from "react-bootstrap";
 import { Link, useLocation } from "react-router-dom";
 import { CartState } from "../context/Context";
+import Authmodal from "./Authentication/Authmodal";
 import "./styles.css";
 
 const Header = () => {
@@ -87,6 +88,7 @@ const Header = () => {
               )}
             </Dropdown.Menu>
           </Dropdown>
+          <Authmodal />
 		  <span className="navText"><a href="/login">Login</a></span>
       <span className="navText"><a href="/register">Register</a></span>
         </Nav>

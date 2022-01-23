@@ -3,36 +3,34 @@ import React from 'react';
 const RegisterPage = () => {
   return (
     <div className="myContainer">
-      <h3>Register</h3>
-      <table>
-        <tr>
-          <td>E-mail</td>
-          <td>:</td>
-          <td>
-            <input
-              type="text"
-              placeholder="email"
-              className="form-control"
-            ></input>
-          </td>
-        </tr>
-        <tr>
-          <td>Password</td>
-          <td>:</td>
-          <td>
-            <input
-              type="text"
-              placeholder="password"
-              className="form-control"
-            ></input>
-          </td>
-        </tr>
-        <tr>
-          <td colspan="3">
-            <button className="btn btn-primary">Register</button>
-          </td>
-        </tr>
-      </table>
+     <form>
+                <h3>Sign Up</h3>
+
+                <div className="form-group">
+                    <label>First name</label>
+                    <input type="text" className="form-control" placeholder="First name" />
+                </div>
+
+                <div className="form-group">
+                    <label>Last name</label>
+                    <input type="text" className="form-control" placeholder="Last name" />
+                </div>
+
+                <div className="form-group">
+                    <label>Email address</label>
+                    <input type="email" className="form-control" placeholder="Enter email" />
+                </div>
+
+                <div className="form-group">
+                    <label>Password</label>
+                    <input type="password" className="form-control" placeholder="Enter password" />
+                </div>
+
+                <button type="submit" className="btn btn-primary btn-block">Sign Up</button>
+                <p className="forgot-password text-right">
+                    Already registered <a href="#">sign in?</a>
+                </p>
+            </form>
     </div>
   );
 };
