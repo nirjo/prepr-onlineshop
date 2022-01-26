@@ -11,7 +11,8 @@ import AddCategory from "./components/AddCategory";
 import UserProfile from "./components/UserProfile";
 import LoginPage from "./components/LoginPage";
 import RegisterPage from "./components/RegisterPage";
-
+import layout from "./components/Layouts/layout";
+import RestApi from "./Pages/RestApi";
 function PageNotFound() {
   let location = useLocation();
 
@@ -60,7 +61,12 @@ function App() {
             <Route path="/Cart">
               <Cart />
             </Route>
-
+           <Route path="/Layout">
+              <layout />
+            </Route>
+          <Route path="/RestApi">
+              <RestApi />
+            </Route>
             <Route path="*">
               <PageNotFound />
             </Route>
